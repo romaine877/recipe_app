@@ -12,16 +12,16 @@ export default function Header() {
             </Link>
             <nav className="flex flex-wrap flex-col md:flex-row m-2">
                 <Link href="/">
-                    <a className="mx-2">Home</a>
+                    <a className="mx-2 hover:text-cyan-700 uppercase">Home</a>
                 </Link>
                 <Link href="/about">
-                    <a className="mx-2">About</a>
+                    <a className="mx-2 hover:text-cyan-700 uppercase">About</a>
                 </Link>
                 <Link href="/recipes">
-                    <a className="mx-2">Recipes</a>
+                    <a className="mx-2 hover:text-cyan-700 uppercase">Recipes</a>
                 </Link>
                 <Link href="/contact">
-                    <a className="mx-2">Contact</a>
+                    <a className="mx-2 hover:text-cyan-700 uppercase">Contact</a>
                 </Link>
             </nav>
             </div>
