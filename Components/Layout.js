@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Layout({children, title, keywords}) {
     return (
-        <div className="m-10">
+        <div>
             <Head>
                 <title>{title}</title>
                 <link rel="icon" href="/favicon.ico" />
