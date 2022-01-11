@@ -10,7 +10,7 @@ export default function Layout({children, title, keywords}) {
                 <meta name="keywords" content={keywords} />
             </Head>
             <Header/>
-            <main>
+            <main className="bg-gray-200"> 
                 {children}
             </main>
         </div>

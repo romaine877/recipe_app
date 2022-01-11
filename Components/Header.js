@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
     return (
         <header>
-            <div className="container md:py-10 mx-auto flex flex-col flex-wrap md:flex-row justify-between items-center">
+            <div className="container md:py-10 mx-auto flex flex-col flex-wrap md:flex-row justify-between items-center bg-gray-200">
             <Link href="/">
                 <a className="font-bold text-2xl">
                    <span className="text-green-600 hover:text-yellow-300 transition ease-in-out duration-1000">UP</span><span className="text-yellow-300 hover:text-green-600">TOWN</span>

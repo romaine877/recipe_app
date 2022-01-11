@@ -31,8 +31,8 @@ export default function Home() {
 
 
           </div>
-        <div className=" flex" >
-        <Image src='/images/curry.jpg'  width={600} height={600} className='justify-items-end'/>
+        <div>
+        <Image src='/images/food.png'  width={600} height={600}/>
         </div>
         </div>
         
