@@ -18,17 +18,17 @@ export default function Header() {
                 </a>
             </Link>
             <nav className="hidden md:flex flex-row m-2">
-                <Link href="/" passref="true">
-                    <a className="mx-2 hover:text-cyan-700 uppercase font-semibold antialiased transition ease-in-out duration-400">Home</a>
+                <Link href="/" >
+                    <a className="mx-2 hover:text-cyan-700 uppercase font-semibold transition ease-in-out duration-400">Home</a>
                 </Link>
-                <Link href="/about" passref="true">
-                    <a className="mx-2 hover:text-cyan-700 uppercase font-semibold antialiased transition ease-in-out duration-400">About</a>
+                <Link href="/about" >
+                    <a className="mx-2 hover:text-cyan-700 uppercase font-semibold transition ease-in-out duration-400">About</a>
                 </Link>
-                <Link href="/recipes" passref="true">
-                    <a className="mx-2 hover:text-cyan-700 uppercase font-semibold antialiased transition ease-in-out duration-400">Recipes</a>
+                <Link href="/recipes">
+                    <a className="mx-2 hover:text-cyan-700 uppercase font-semibold transition ease-in-out duration-400">Recipes</a>
                 </Link>
-                <Link href="/contact" passref="true">
-                    <a className="mx-2 hover:text-cyan-700 uppercase font-semibold antialiased transition ease-in-out duration-400">Contact</a>
+                <Link href="/contact" >
+                    <a className="mx-2 hover:text-cyan-700 uppercase font-semibold transition ease-in-out duration-400">Contact</a>
                 </Link>
             </nav>
             <MobileNav/>
