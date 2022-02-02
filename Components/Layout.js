@@ -4,8 +4,7 @@ import Navbar from "./Navbar";
 
 export default function Layout({ children }) {
   return (
-    <div>
-      <div className="flex flex-col justify-between">
+    <>
         <Head>
           <title>The BEST cookshop Uptown</title>
           <link rel="icon" href="/favicon.ico" />
@@ -21,10 +20,11 @@ export default function Layout({ children }) {
           />
           <meta name="author" content="Romaine Halstead" />
         </Head>
+      <div className="flex flex-col justify-between">
 
         <Navbar />
         {children}
       </div>
-    </div>
+    </>
   );
 }
