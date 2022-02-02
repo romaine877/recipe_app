@@ -19,12 +19,12 @@ export default function Home() {
 
             <div className="flex flex-col m-2 md:flex-row">
               <Link href="/recipes">
-                <a passhref><button className="mb-4 md:mb-0 md:mr-4 bg-green-600 rounded-lg py-2 px-5 text-gray-50 transition ease-in hover:scale-110 hover:bg-yellow-400 hover:text-gray-900">
+                <a passhref="true"><button className="mb-4 md:mb-0 md:mr-4 bg-green-600 rounded-lg py-2 px-5 text-gray-50 transition ease-in hover:scale-110 hover:bg-yellow-400 hover:text-gray-900">
                   Get Cooking
                 </button></a>
               </Link>
               <Link href="/about">
-                <a passhref>
+                <a passhref="true">
                 <button className="md:mr-4 border-4 border-yellow-400 rounded-lg py-2 px-5 text-gray-900 transition ease-in hover:scale-110 hover:border-green-600">
                   Explore Menu
                 </button>
