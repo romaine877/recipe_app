@@ -17,7 +17,6 @@ export default function Header() {
                    <span className="text-green-600 hover:text-yellow-300 transition ease-in-out duration-1000">UP</span><span className="text-yellow-300 hover:text-green-600">TOWN</span>
                 </a>
             </Link>
-            <MobileNav/>
             <nav className="hidden md:flex flex-row m-2">
                 <Link href="/" passref="true">
                     <a className="mx-2 hover:text-cyan-700 uppercase font-semibold antialiased transition ease-in-out duration-400">Home</a>
@@ -32,6 +31,7 @@ export default function Header() {
                     <a className="mx-2 hover:text-cyan-700 uppercase font-semibold antialiased transition ease-in-out duration-400">Contact</a>
                 </Link>
             </nav>
+            <MobileNav/>
             </div>
         </header>
     )

@@ -9,7 +9,7 @@ export default function MobileNav() {
         setMobilNavOpen(!mobilNavOpen);
     }
   return (
-      <div className="flex md:hidden">
+      <div className="md:hidden">
 
           { mobilNavOpen ?
         (<div className='h-screen w-screen fixed backdrop-blur-md inset-0 z-10' onClick={toggleMobilNav}>
