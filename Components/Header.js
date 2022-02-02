@@ -1,6 +1,6 @@
 import Link from "next/link";
 import MobileNav from "./MobilNav";
-import Image from "next/image";
+
 
 
 

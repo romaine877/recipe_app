@@ -23,7 +23,7 @@ export default function Layout({children, title, keywords}) {
                         <Image src="/images/under-construction.png"
                         height={152}
                         width={250}
-                       
+                        alt="Under Construction"
                         />
                     </div>
                 </div>
