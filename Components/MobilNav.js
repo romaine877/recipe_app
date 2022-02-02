@@ -3,7 +3,7 @@ import { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 
 export default function MobileNav() {
-    const [mobilNavOpen, setMobilNavOpen] = useState(false);
+    const [mobilNavOpen, setMobilNavOpen] = useState(true);
 
     const toggleMobilNav = () => {
         setMobilNavOpen(!mobilNavOpen);

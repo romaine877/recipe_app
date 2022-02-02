@@ -31,7 +31,7 @@ export default function Header() {
                     <a className="mx-2 hover:text-cyan-700 uppercase font-semibold transition ease-in-out duration-400">Contact</a>
                 </Link>
             </nav>
-           
+            <MobileNav/>
             </div>
         </header>
     )
