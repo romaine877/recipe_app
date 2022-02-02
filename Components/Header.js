@@ -1,16 +1,24 @@
-import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "./MobilNav";
+import Image from "next/image";
+
+
 
 export default function Header() {
+
+   
+
     return (
         <header>
-            <div className="container md:py-10 mx-auto flex flex-col flex-wrap md:flex-row justify-between items-center bg-gray-200">
+             
+            <div className="container pt-5 mx-auto flex md:flex-row justify-between items-center">
             <Link href="/">
                 <a className="font-bold text-2xl">
                    <span className="text-green-600 hover:text-yellow-300 transition ease-in-out duration-1000">UP</span><span className="text-yellow-300 hover:text-green-600">TOWN</span>
                 </a>
             </Link>
-            <nav className="flex flex-wrap flex-col items-center md:flex-row m-2">
+            <MobileNav/>
+            <nav className="hidden md:flex flex-row m-2">
                 <Link href="/">
                     <a className="mx-2 hover:text-cyan-700 uppercase font-semibold antialiased transition ease-in-out duration-400">Home</a>
                 </Link>
