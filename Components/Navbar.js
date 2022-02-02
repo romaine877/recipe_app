@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="flex justify-between items-center p-7 mx-5">
 
       <Link href="/">
-      <a className="rounded-lg shadow-md p-7 font-bold text-green-600 hover:shadow-lg hover:bg-green-600 hover:text-yellow-300 transition ease-in">UPTOWN</a>
+      <p className="rounded-lg shadow-md p-7 font-bold text-green-600 hover:shadow-lg hover:bg-green-600 hover:text-yellow-300 transition ease-in">UPTOWN</p>
       </Link>
       <nav className="space-x-7">
         <Link href="/">
