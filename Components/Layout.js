@@ -6,12 +6,12 @@ import Header from "./Header";
 export default function Layout({children, title, keywords}) {
     return (
         <div>
+            <div className=" flex flex-col justify-between h-screen ">
             <Head>
                 <title>{title}</title>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="keywords" content={keywords} />
             </Head>
-            <div className=" flex flex-col justify-between h-screen ">
 
             <Header/>
             <main> 
