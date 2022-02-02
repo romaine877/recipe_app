@@ -1,11 +1,10 @@
-import Image from "next/image";
-import Layout from "../Components/Layout";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
  
   return (
-    <Layout>
+    <>
       <div className="container mx-auto p-20">
         <div className="flex flex-col-reverse lg:flex-row justify-between mb-10">
           <div className=" lg:w-1/2 mt-5 pr-5">
@@ -75,6 +74,6 @@ export default function Home() {
         </div>
         </div>
       </div>
-    </Layout>
+    </>
   );
 }
