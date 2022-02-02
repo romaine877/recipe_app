@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Layout from "../Components/Layout";
-import { useRouter } from "next/router";
 import Link from "next/link";
 
 export default function Home() {
-  const router = useRouter();
+ 
   return (
     <Layout>
       <div className="container mx-auto p-20">
