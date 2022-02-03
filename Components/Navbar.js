@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import MobileNav from "./MobileNav";
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
       <Link href="/">
       <p className="rounded-lg shadow-md p-7 font-bold text-green-600 hover:shadow-lg hover:bg-green-600 hover:text-yellow-300 transition ease-in">UPTOWN</p>
       </Link>
-      <nav className="space-x-7">
+      <nav className="space-x-7 hidden md:flex">
         <Link href="/">
           <a className="p-5 rounded-lg font-bold text-green-600  hover:bg-green-600 hover:text-yellow-300 transition ease-in">Home</a>
         </Link>
@@ -22,6 +23,7 @@ export default function Navbar() {
           <a className="p-5 rounded-lg font-bold text-green-600  hover:bg-green-600 hover:text-yellow-300 transition ease-in">Contact</a>
         </Link>
       </nav>
+        <MobileNav/>
     </header>
   );
 }
