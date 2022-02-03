@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import ConstructionOverlay from "./ConstructionOverlay";
 import Navbar from "./Navbar";
 
 export default function Layout({ children }) {
@@ -21,10 +22,10 @@ export default function Layout({ children }) {
           />
           <meta name="author" content="Romaine Halstead" />
         </Head>
-
         <Navbar />
         {children}
       </div>
+      <ConstructionOverlay/>
     </>
   );
 }
