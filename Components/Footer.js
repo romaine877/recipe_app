@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer className="bg-gray-200 flex justify-center items-center h-24 p-10 ">
+      <footer className=" flex justify-center items-center h-24 p-10 ">
           <p className='text-center'>
           © {new Date().getFullYear()}, Built by Romaine Halstead with
           {` `}

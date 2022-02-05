@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Layout from "../Components/Layout";
+import Newsletter from "../Components/Newsletter";
 
 export default function Home() {
  
@@ -8,7 +9,7 @@ export default function Home() {
     <Layout>
       <div className="container mx-auto p-20">
         <div className="flex flex-col-reverse lg:flex-row justify-between mb-10">
-          <div className=" lg:w-1/2 mt-5 pr-5">
+          <div className=" lg:w-1/2 mt-5 md:pr-5">
             <h1 className="text-3xl lg:text-7xl font-bold leading-tight text-center md:text-left">
               {`Let's Start`} <br /> Cooking With Popular Recipes
             </h1>
@@ -16,16 +17,16 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
 
-            <div className="flex flex-col m-2 md:flex-row">
+            <div className="flex flex-col items-center m-2 md:flex-row">
               <Link href="/recipes">
-                <a passhref="true"><button className="mb-4 md:mb-0 md:mr-4 bg-green-600 rounded-lg py-2 px-5 text-gray-50 transition ease-in hover:scale-110 hover:bg-yellow-400 hover:text-gray-900">
+                <a passhref="true"><button className="w-36 mb-4 md:mb-0 md:mr-4 bg-green-600 rounded-lg py-2 px-5 text-gray-50 transition ease-in hover:scale-110 hover:bg-yellow-400 hover:text-gray-900">
                   Get Cooking
                 </button></a>
               </Link>
               <Link href="/about">
                 <a passhref="true">
-                <button className="md:mr-4 border-4 border-yellow-400 rounded-lg py-2 px-5 text-gray-900 transition ease-in hover:scale-110 hover:border-green-600">
-                  Explore Menu
+                <button className="w-36 md:mr-4 border-4 border-yellow-400 rounded-lg py-2 px-5 text-gray-900 transition ease-in hover:scale-110 hover:border-green-600">
+                  Explore
                 </button>
                 </a>
               </Link>
@@ -74,6 +75,7 @@ export default function Home() {
           </div>
         </div>
         </div>
+        <Newsletter/>
       </div>
     </Layout>
   );

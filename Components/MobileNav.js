@@ -29,7 +29,7 @@ export default function MobileNav() {
             </div>
         </div>)
         :
-        <HiMenu onClick={toggleMobilNav} className="text-4xl"/>
+        <HiMenu onClick={toggleMobilNav} className="text-4xl text-green-600"/>
           }
       </div>
   );
