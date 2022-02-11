@@ -6,7 +6,7 @@ export default function Newsletter() {
       <div className="relative ">
         
         <div className="m-5 flex flex-col  p-10 text-center space-y-3">
-          <h1 className="text-3xl font-bold z-50 text-white">Join our newsletter to get yearly updates.</h1>
+          <h1 className="text-3xl font-bold z-50 text-white text-shadow-md">Join our newsletter to get yearly updates.</h1>
           <p className="z-50 text-white">
             We will send you a weekly newsletter with recipes, news and more.
           </p>
@@ -22,7 +22,7 @@ export default function Newsletter() {
           </form>
         </div>
         <div className="-z-10">
-        <Image src="/images/newsletter.jpg" layout="fill" objectFit="cover" alt="newsletter" />
+        <Image src="/images/newsletter.jpg" layout="fill" objectFit="cover" alt="newsletter" className="rounded-3xl"/>
         </div>
         
       </div>
